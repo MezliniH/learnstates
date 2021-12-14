@@ -1,0 +1,16 @@
+.movie {
+   background-color: rgb(39, 43, 41);
+   padding: 13px;
+   text-align: center;
+   color: bisque;
+   font-size: medium;
+   margin: 0 11px ;
+
+};
+
+.listmovies{
+   display: flex;
+
+  
+
+}

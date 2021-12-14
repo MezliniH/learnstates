@@ -1,0 +1,17 @@
+.formControl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: blanchedalmond;
+   background-color: rgba(2, 23, 26, 0.705);
+    background-size: cover;
+}
+
+
+.ModHead{
+   
+background-color: rgba(253, 224, 59, 0.747); 
+
+}
