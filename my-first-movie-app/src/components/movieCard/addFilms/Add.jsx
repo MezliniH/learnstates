@@ -9,6 +9,7 @@ function Add({getMoviesListData}) {
   
   const [newMovie, setNewMovie] = useState({
     title:"",
+    releaseYear:"",
     description :"",
     posterUrl:"",
     rating:0
@@ -35,7 +36,6 @@ function Add({getMoviesListData}) {
         <FormControl 
       type="text"
       placeholder="Enter New title..." 
-      className="mr-sm-2 searchInput"
       name="title"
       onChange={handleChange}
        />
@@ -43,7 +43,6 @@ function Add({getMoviesListData}) {
       as = "textarea"
       type="text"
       placeholder="Enter Description..." 
-      className="mr-sm-2 searchInput"
       name="description"
       onChange={handleChange}
 
@@ -51,7 +50,6 @@ function Add({getMoviesListData}) {
       <FormControl 
       type="text"
       placeholder="Enter posterUrl..." 
-      className="mr-sm-2 searchInput"
       name="posterUrl"
       onChange={handleChange}
 
@@ -59,7 +57,6 @@ function Add({getMoviesListData}) {
       <FormControl 
       type="text"
       placeholder="Enter Rating..." 
-      className="mr-sm-2 searchInput"
       name="rating"
       onChange={handleChange}
 
